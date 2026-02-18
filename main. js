@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Danladi Abdulwahab | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    scroll-behavior:smooth;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(135deg,#0ea5e9,#2563eb);
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid white;
+    margin-bottom:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+section{
+    padding:70px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    color:#38bdf8;
+    margin-bottom:40px;
+    font-size:28px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.4);
+}
+
+.gallery img{
+    width:100%;
+    border-radius:15px;
+    transition:0.4s;
+    cursor:pointer;
+}
+
+.gallery img:hover{
+    transform:scale(1.07);
+}
+
+.contact{
+    text-align:center;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 30px;
+    background:#0ea5e9;
+    border-radius:30px;
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#2563eb;
+    transform:scale(1.05);
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#111827;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="YOUR_PROFILE_IMAGE_LINK_HERE" class="profile">
+<h1>DANLADI ABDULWAHAB</h1>
+<p>Computer Science Student | Web Developer | Professional Tiler</p>
+</header>
+
+<section>
+<h2>About Me</h2>
+<div class="card">
+I am a Computer Science student passionate about website development,
+cybersecurity, computer maintenance and professional floor & wall tiling.
+I deliver clean and professional finishing in every tiling project.
+</div>
+</section>
+
+<section>
+<h2>My Skills</h2>
+<div class="grid">
+<div class="card">HTML & CSS</div>
+<div class="card">Python</div>
+<div class="card">C Programming</div>
+<div class="card">Cybersecurity Basics</div>
+<div class="card">Computer Repairs</div>
+<div class="card">Professional Tiling</div>
+</div>
+</section>
+
+<section>
+<h2>My Tiling Work</h2>
+<div class="grid gallery">
+<img src="TILE_IMAGE_1_LINK">
+<img src="TILE_IMAGE_2_LINK">
+<img src="TILE_IMAGE_3_LINK">
+<img src="TILE_IMAGE_4_LINK">
+</div>
+</section>
+
+<section class="contact">
+<h2>Contact Me</h2>
+<a href="https://wa.me/2347044010539" class="btn">Hire Me on WhatsApp</a>
+</section>
+
+<footer>
+© 2026 Danladi Abdulwahab
+</footer>
+
+</body>
+</html>
